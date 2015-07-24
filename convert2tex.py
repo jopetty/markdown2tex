@@ -11,14 +11,15 @@ from merge import *
 # **DATA**      >>>     \textbf{DATA}
 rep_array = [
     # Characters used by iA Writer
-    [u'\u2018', "`"], # Single left quotation
-    [u'\u2019', "'"], # RIGHT SINGLE QUOTATION MARK
-    [u'\u201C', "``"], # LEFT DOUBLE QUOTATION MARK
-    [u'\u201D', '"'], # RIGHT DOUBLE QUOTATION MARK
-    [u'\u2026', '...'], # HORIZONTAL ELLIPSIS
+    [u'\u2018', "`"], # LEFT SINGLE QUOTATION MARK > APOSTROPHE
+    [u'\u2019', "'"], # RIGHT SINGLE QUOTATION MARK > APOSTROPHE
+    [u'\u201C', "``"], # LEFT DOUBLE QUOTATION MARK > GRAVE ACCENT x2
+    [u'\u201D', '"'], # RIGHT DOUBLE QUOTATION MARK > QUOTATION MARK
+    [u'\u2026', '...'], # HORIZONTAL ELLIPSIS > FULL STOP x3
 
     # MLA formatting sequences
     [u'\u002e\u0020', u'\u002e\u0020\u005c\u0020'], # SINGLE SPACING -> DOUBLE SPACING
+    [u'\u0020\u0022', u'\u0020``'], # LEFT DOUBLE QUOTATION MARK > GRAVE ACCENT x2
 
     # Markdown formatting sequences
     [u'\u0020**', u'\u0020\u005ctextbf{'], # MARKDOWN BOLD TEXT START ( **)

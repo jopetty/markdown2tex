@@ -1,0 +1,28 @@
+\documentclass[12pt,letterpaper]{article}
+
+% Import the packages
+% This is based of the MLA package provided by Ryan Aycock
+\usepackage{mla}
+\usepackage{datetime}
+
+% Define the custom date
+\newdateformat{mladate}{\twodigit{\THEDAY} \ \monthname[\THEMONTH] \THEYEAR}
+
+\begin{document}
+\begin{mla}{FIRSTNAME}{LASTNAME}{TEACHER}{CLASS}{\mladate\today}{TITLE}
+
+% BEGIN ESSAY HERE
+
+\begin{workscited}
+
+% \bibent
+% author's last name, first name.  ``Paper Title."  \textit{Book Title}.  Date of publication.
+%
+% \bibent
+% author's last name, first name.  ``Paper Title."  \textit{Book Title}.  Date of publication.
+
+% BEGIN WORKS CITED HERE
+
+\end{workscited}
+\end{mla}
+\end{document}

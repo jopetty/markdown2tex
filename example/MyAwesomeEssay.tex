@@ -1,0 +1,26 @@
+\documentclass[12pt,letterpaper]{article}
+% Import the packages
+% This is based of the MLA package provided by Ryan Aycock
+\usepackage{mla}
+\usepackage{datetime}
+% Define the custom date
+\newdateformat{mladate}{\twodigit{\THEDAY} \ \monthname[\THEMONTH] \THEYEAR}
+\begin{document}
+\begin{mla}{Joe}{Awesome}{Prof. Cool Guy}{Best Class Ever}{\mladate\today}{My Awesome Essay: A Thesis}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\begin{workscited}
+% \bibent
+% author's last name, first name.  ``Paper Title."  \textit{Book Title}.  Date of publication.
+%
+% \bibent
+% author's last name, first name.  ``Paper Title."  \textit{Book Title}.  Date of publication.
+\bibent
+McAuthorson, Bill. \ ``Neat Article". \ \textit{Awesome Book.} Paris: The Internet. \ 1527. \ Print
+
+\end{workscited}
+\end{mla}
+\end{document}

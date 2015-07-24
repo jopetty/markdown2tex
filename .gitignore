@@ -62,3 +62,7 @@ target/
 
 # List of Unicode Escapes for rep_array
 assets/
+
+# LaTeX auxiliary files
+*.aux
+*.log

@@ -29,3 +29,6 @@ markdown2tex in run as a traditional python file. Note that your terminal’s cu
 python mdtex.py input_file.md [-c] [--compile] [-v] [--verbose]
 ```
 where input_file.md is the paper you wish to convert. The ```[-c]/[--compile]``` flag indicates that you want to not only format input_file.md as a LaTeX file, but also that you want to generate the PDF file with ```pdflatex``` (note that you must have pdflatex installed on your computer for this to work). The ```[-v]/[--verbose]``` flag indicates that you want to see the output of the conversion (and compilation) of the LaTeX file on the terminal.
+
+## Example
+See the ```/example``` directory for an example markdown file and the associated LaTeX and PDF output files.
